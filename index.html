@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>trillo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/trillo-style.css">
+	<link rel="shortcut icon" href="./image/trillo-favicon.ico">
+	<link rel="bookmark" href="./image/trillo-favicon.ico">
+</head>
+<body>
+	<div class="container">
+		<header class = "navbar-header">
+			<img class = "navbar-brand" src="./image/logo.png" alt = "trillo">
+			<form class = "searchBar">
+				<input type="text" 
+					   class = "search-input"
+					   name="search"
+					   placeholder="Search hotels" />
+				<button class = "search-button">
+					<i class="fas fa-search fa-sm search-button-icon"></i>
+				</button>
+			</form>
+			<nav class = "navbar-list">
+				<div></div>
+				<div></div>
+				<div></div>
+			</nav>
+		</header>
+		<div class="content">
+			<nav class="sidebar">
+				<ul class = "sidebar-nav">
+					<li class = "sidebar-item active">
+						<a class = "sidebar-link" href="#">
+							<i class="fas fa-hotel sidebar-nav-icon"></i>
+							<span>HOTEL</span>
+						</a>
+					</li>
+					<li class = "sidebar-item">
+						<a class = "sidebar-link" href="#">
+							<i class="fas fa-plane-departure sidebar-nav-icon"></i>
+							<span>FLIGHT</span>
+						</a>
+					</li>
+					<li class = "sidebar-item">
+						<a class = "sidebar-link" href="#">
+							<i class="fas fa-car sidebar-nav-icon"></i>
+							<span>CAR RENTAL</span>
+						</a>
+					</li>
+					<li class = "sidebar-item">
+						<a class = "sidebar-link" href="#">
+							<i class="fas fa-map-marked-alt sidebar-nav-icon"></i>
+							<span>TOURS</span>
+						</a>
+					</li>
+				</ul>
+				<div class="legal">
+                    © 2019 by trillo. All rights reserved.
+				</div>
+			</nav>
+			<main class="hotel-view">
+				<div class="gallery">
+					<figure class = "hotel-figure">
+						<img src="./image/hotel-1.jpg" alt="hotel image-1">
+					</figure>
+					<figure class = "hotel-figure">
+						<img src="./image/hotel-2.jpg" alt="hotel image-2">
+					</figure>
+					<figure class = "hotel-figure">
+						<img src="./image/hotel-3.jpg" alt="hotel image-3">
+					</figure>
+				</div>
+				<div class="introduction">
+					<div class="overview">
+						<h1 class="overview-heading">Las Palmas by the Sea</h1>
+						<div class="overview-location">
+							<i class="fas fa-map-marker-alt"></i>
+							<span>Jalisco, Mexico</span>
+						</div>
+					</div>					
+					<div class="overview-rating">
+						<span class = "overview-rating-number">8.0</span>
+						<span class = "overview-rating-review">3499 reviews</span>
+					</div>
+				</div>
+				<div class="detail">
+					<div class="description">
+						<p class="paragraph">
+							Las Palmas by the Sea is located directly on the beach, approximately 5 km from downtown Puerto Vallarta and the Marina and 7 km from the Puerto Vallarta airport.
+						</p>
+						<p class="paragraph">
+							This popular and lively hotel offers 225 rooms in two 4-storey buildings.
+						</p>
+						<ul class="service-list">
+							<li class="service-item">
+								À la carte dinners
+							</li>
+							<li class="service-item">
+								Daily activities
+							</li>
+							<li class="service-item">
+								Daily sports
+							</li>
+							<li class="service-item">
+								Non-motorized water sports
+							</li>
+							<li class="service-item">
+								Car Rental
+							</li>
+							<li class="service-item">
+								Snacks
+							</li>
+							<li class="service-item">
+								Domestic drinks
+							</li>
+							<li class="service-item">
+								Evening entertainment 
+							</li>
+							<li class="service-item">
+								Buffet breakfast
+							</li>							
+						</ul>
+						<div class="recommand">
+							<p class="recommand-word">
+								Lucy and 3 other friends recommend this hotel. 
+							</p>
+						</div>
+					</div>
+					<div class="user-reviews">
+						<div class="review">
+							<p class="review-text">
+								I’ve been going to Las Palmas by the sea for years. I love being greeted by Antonio at the front door. He’s always standing there and gives us all a big hug.
+							</p>
+							<div class="review-info">
+								<div class="user-box">
+									<p class="user-name">RoxaneCalder</p>
+									<p class="review-date">Feb 10 2020</p>
+								</div>
+								<p class="review-rating">9.0</p>
+							</div>
+						</div>
+						<div class="review">
+							<p class="review-text">
+								Wow. So impressed with this resort. Food was great. Always something to choose from. Wonderful attentive staff. Rooms were so clean and anything we requested was given to us so quickly.
+							</p>
+							<div class="review-info">
+								<div class="user-box">
+									<p class="user-name">ilovepv2020</p>
+									<p class="review-date">Feb 12 2020</p>
+								</div>
+								<p class="review-rating">8.0</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cta">
+					<h2 class="cta-book_now">
+                        Good News! We have 4 free rooms for your selected dates!
+					</h2>
+					<button class="book-btn">
+						<span class = "btn-visible">Book Now</span>
+						<span class = "btn-invisible">Only 4 rooms left</span>
+					</button>
+				</div>
+			</main>		
+		</div>
+	</div>	
+</body>
+</html>
