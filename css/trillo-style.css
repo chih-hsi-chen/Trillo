@@ -368,7 +368,12 @@ body {
 		margin: 1rem;
 	}
 	.sidebar-link {
+		flex-direction: column;
 		padding: 1.5rem 2rem;
+	}
+	.sidebar-item .sidebar-nav-icon {
+		margin-right: 0;
+		margin-bottom: 0.75rem;
 	}
 	.searchBar {
 		flex: 0 0 80%;
